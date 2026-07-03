@@ -1,0 +1,129 @@
+.industries{
+
+    width:90%;
+    max-width:1300px;
+    margin:140px auto;
+    text-align:center;
+    padding-top:80px 0;
+
+}
+
+.industries-tag{
+
+    color:#2AE66B;
+    letter-spacing:5px;
+    font-size:14px;
+    margin-bottom:20px;
+
+}
+
+.industries-title{
+
+    color:white;
+    font-size:60px;
+    margin-bottom:25px;
+
+}
+
+.industries-title span{
+
+    color:#2AE66B;
+
+}
+
+.industries-text{
+
+    max-width:760px;
+    margin:auto;
+    color:#B5B5B5;
+    line-height:1.8;
+    font-size:20px;
+
+}
+
+.chips{
+
+    margin-top:70px;
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+
+}
+
+.chip{
+
+    padding:16px 30px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:40px;
+
+    background:#0E1B15;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    font-size:18px;
+
+}
+
+.chip:hover{
+
+    background:#2AE66B;
+
+    color:black;
+
+    border-color:#2AE66B;
+
+    box-shadow:0 0 25px rgba(42,230,107,.25);
+
+}
+
+@media(max-width:900px){
+
+.industries-title{
+
+font-size:42px;
+
+}
+
+.industries-text{
+
+font-size:18px;
+
+}
+
+.chips{
+
+gap:15px;
+
+}
+
+.chip{
+
+padding:14px 24px;
+font-size:16px;
+
+}
+}
+.industries h2{
+    font-size:64px;
+    font-weight:700;
+    line-height:1.2;
+}
+.industry-pill{
+    transition:.3s;
+    cursor:pointer;
+}
+
+.industry-pill:hover{
+    background:#2AE66B;
+    color:#08130d;
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(42,230,107,.25);
+}
